@@ -21,7 +21,7 @@ read CONFIRMATION
 if [ "${CONFIRMATION,,}" == "yes" ]
 then
   apt update
-  apt-get install -f neofetch nano vim webapp-manager krita deepin-terminal python3 python3-pip snapd flatpak
+  apt-get install -f neofetch nano neovim webapp-manager deepin-terminal python3 python3-pip snapd flatpak
   set -e
   snap install snap-store
 else
